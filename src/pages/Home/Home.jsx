@@ -6,9 +6,9 @@ import Testimonials from '../../components/Testimonials/Testimonials'
 const Home = () => {
 	return (
 		<>
-			<Hero/>
+			<Hero />
 			<About />
-			<Testimonials/>
+			<Testimonials />
 		</>
 	)
 }

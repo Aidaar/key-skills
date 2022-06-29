@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
-// import logo from './images/logo.png'
+import logo from '../../assets/header/keySkillsLogo.png'
 
 import './Navbar.scss'
 
@@ -14,7 +14,7 @@ const Navbar = () => {
 		<div className='header'>
 			<nav className='navbar'>
 				<a href='/' className='logo'>
-					{/* <img src={logo} alt='logo' /> */}
+					<img src={logo} alt='logo' />
 				</a>
 				<div className='hamburger' onClick={handleClick}>
 					{click ? (

@@ -5,13 +5,10 @@ const Hero = () => {
 	return (
 		<div className='hero'>
 			<div className='content'>
-				<p>Call us</p>
-				<p>1-800-123-4567</p>
-				<p>Because Money</p>
-				<p>Doesn't come with instructions</p>
-				<button href='/' className='button'>
-					Free Consultation
-				</button>
+				<p>Позвоните нам</p>
+				<p>0553 513 515</p>
+				<p>Key Skills</p>
+				<p>Ключ к вашему успеху в наших руках!</p>
 			</div>
 		</div>
 	)

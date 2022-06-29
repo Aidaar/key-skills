@@ -1,14 +1,12 @@
-import './App.css';
-
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
-import { Layout } from './components/Layout/Layout';
-import { Notfound } from './pages/Notfound/Notfound';
-import Business from './pages/Business/Business';
-import { Home } from './pages/Home/Home';
+import { Layout } from './components/Layout/Layout'
+import { Notfound } from './pages/Notfound/Notfound'
+import Business from './pages/Business/Business'
+import { Home } from './pages/Home/Home'
 
 function App() {
-  return (
+	return (
 		<Routes>
 			<Route path='/' element={<Layout />}>
 				<Route index element={<Home />} />
@@ -19,4 +17,4 @@ function App() {
 	)
 }
 
-export default App;
+export default App

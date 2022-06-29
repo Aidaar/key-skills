@@ -26,9 +26,21 @@ const Testimonials = () => {
 					<div className='card'>
 						{/* <img src={user2} alt='user1' /> */}
 						<p>
-							In just 2 very short meetings with John he managed to find the
-							solution personally catered to my situation and expectations.
-							Punctual, well informed and very reliable.
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+							neque voluptatibus autem nemo asperiores, voluptatum magni, sunt
+							quis debitis minus ut quia fugiat. Libero, blanditiis?
+						</p>
+						<p>
+							<span>Carol Harper</span>
+						</p>
+						<p>Director at Risktec Solutions Ltd</p>
+					</div>
+					<div className='card'>
+						{/* <img src={user2} alt='user1' /> */}
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+							neque voluptatibus autem nemo asperiores, voluptatum magni, sunt
+							quis debitis minus ut quia fugiat. Libero, blanditiis?
 						</p>
 						<p>
 							<span>Carol Harper</span>
@@ -38,9 +50,9 @@ const Testimonials = () => {
 					<div className='card'>
 						{/* <img src={user3} alt='user1' /> */}
 						<p>
-							A very professional financial advisor, who is true to his word.
-							John has demonstrated a high amount of integrity in the time I
-							have known him, and he is fast to respond to my concerns.
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+							neque voluptatibus autem nemo asperiores, voluptatum magni, sunt
+							quis debitis minus ut quia fugiat. Libero, blanditiis?
 						</p>
 						<p>
 							<span>Snow.J.R.</span>
