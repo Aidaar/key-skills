@@ -1,14 +1,16 @@
 import React from 'react'
-// import user1 from './images/user1.jpeg'
-// import user2 from './images/user2.jpeg'
-// import user3 from './images/user3.jpeg'
-import './Testimonials.scss'
+// import user1 from '../../assets/cricket.png'
+// import user2 from '../../assets/bugupress.png'
+// import user3 from '../../assets/balastan.png'
+// import user4 from '../../assets/FishToktogul.png'
+
+import './/Testimonials.scss'
 
 const Testimonials = () => {
 	return (
 		<div className='testimonials' id='testimonials'>
 			<div className='container'>
-				<h2>Testimonials</h2>
+				<h2>Отзывы</h2>
 				<span className='line'></span>
 				<div className='content'>
 					<div className='card'>
@@ -24,7 +26,7 @@ const Testimonials = () => {
 						<p>Director of "Financial Times"</p>
 					</div>
 					<div className='card'>
-						{/* <img src={user2} alt='user1' /> */}
+						{/* <img src={user2} alt='user2' /> */}
 						<p>
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
 							neque voluptatibus autem nemo asperiores, voluptatum magni, sunt
@@ -36,7 +38,7 @@ const Testimonials = () => {
 						<p>Director at Risktec Solutions Ltd</p>
 					</div>
 					<div className='card'>
-						{/* <img src={user2} alt='user1' /> */}
+						{/* <img src={user3} alt='user3' /> */}
 						<p>
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
 							neque voluptatibus autem nemo asperiores, voluptatum magni, sunt
@@ -48,7 +50,7 @@ const Testimonials = () => {
 						<p>Director at Risktec Solutions Ltd</p>
 					</div>
 					<div className='card'>
-						{/* <img src={user3} alt='user1' /> */}
+						{/* <img src={user4} alt='user4' /> */}
 						<p>
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
 							neque voluptatibus autem nemo asperiores, voluptatum magni, sunt

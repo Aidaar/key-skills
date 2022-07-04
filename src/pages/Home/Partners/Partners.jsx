@@ -1,68 +1,45 @@
-// import React from 'react'
-// import './Partners.scss'
-// import Carousel from 'react-elastic-carousel'
+// import * as React from 'react';
 
-// export default function Partners() {
-// 	const breakPoints = [{ width: 1200, itemsToShow: 8 }]
-// 	return (
-// 		<div className='Partners'>
-// 			<div>
-// 				<span>Slider that slides one card at a time</span>
-// 				<Carousel breakPoints={breakPoints}>
-// 					<Item>1</Item>
-// 					<Item>2</Item>
-// 					<Item>3</Item>
-// 					<Item>4</Item>
-// 					<Item>5</Item>
-// 					<Item>6</Item>
-// 					<Item>7</Item>
-// 					<Item>8</Item>
-// 				</Carousel>
-// 			</div>
-// 		</div>
-// 	)
-// }
+// const Partners = () => {
+//   const [food, setFood] = React.useState('fruit');
+//   const [drink, setDrink] = React.useState('water');
 
+//   const handleFoodChange = (event) => {
+//     setFood(event.target.value);
+//   };
 
-import React from 'react'
-import ReactDOM from 'react-dom'
+//   const handleDrinkChange = (event) => {
+//     setDrink(event.target.value);
+//   };
 
-class Dropdown extends React.Component {
-	constructor(props) {
-		super(props)
-		this.state = { value: 'coconut' }
+//   return (
+//     <div>
+//       <Dropdown
+//         label="What do we eat?"
+//         options={[
+//           { label: 'Fruit', value: 'fruit' },
+//           { label: 'Vegetable', value: 'vegetable' },
+//           { label: 'Meat', value: 'meat' },
+//         ]}
+//         value={food}
+//         onChange={handleFoodChange}
+//       />
 
-		// this.handleChange = this.handleChange.bind(this);
-		this.handleSubmit = this.handleSubmit.bind(this)
-	}
+//       <Dropdown
+//         label="What do we drink?"
+//         options={[
+//           { label: 'Water', value: 'water' },
+//           { label: 'Beer', value: 'beer' },
+//           { label: 'Wine', value: 'wine' },
+//         ]}
+//         value={drink}
+//         onChange={handleDrinkChange}
+//       />
 
-	//   handleChange(event) {
-	//     this.setState({ value: event.target.value });
-	//   }
+//       <p>We eat {food}!</p>
+//       <p>We drink {drink}!</p>
+//     </div>
+//   );
+// };
 
-	handleSubmit(event) {
-		alert('Your favorite flavor is: ' + this.state.value)
-		event.preventDefault()
-	}
-
-	handleChange = event => {
-		this.setState({ value: event.target.value })
-	}
-
-	render() {
-		return (
-			<form onSubmit={this.handleSubmit}>
-				<label>
-					<select value={this.state.value} onChange={this.handleChange}>
-						<option value='grapefruit'>Grapefruit</option>
-						<option value='lime'>Lime</option>
-						<option value='coconut'>Coconut</option>
-						<option value='mango'>Mango</option>
-					</select>
-				</label>
-			</form>
-		)
-	}
-}
-
-export default Dropdown
+// export default Partners

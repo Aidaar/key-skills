@@ -1,15 +1,16 @@
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react'
+
+import { Link } from 'react-router-dom'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import logo from '../../assets/header/keySkillsLogo.png'
 
 import './Navbar.scss'
-
+import DropMenu from './DropDown/DropMenu'
 const Navbar = () => {
 	const [click, setClick] = useState(false)
 	const handleClick = () => setClick(!click)
 
 	const closeMenu = () => setClick(false)
-
 	return (
 		<div className='header'>
 			<nav className='navbar'>
@@ -25,24 +26,24 @@ const Navbar = () => {
 				</div>
 				<ul className={click ? 'nav-menu active' : 'nav-menu'}>
 					<li className='nav-item'>
-						<a href='/' onClick={closeMenu}>
-							Home
-						</a>
+						<Link to='/' onClick={closeMenu}>
+							Главное
+						</Link>
 					</li>
-					<li className='nav-item'>
-						<a href='#' onClick={closeMenu}>
-							About
-						</a>
+					<li>
+						<DropMenu />
 					</li>
-					<li className='nav-item'>
-						<a href='#' onClick={closeMenu}>
-							Testimonials
-						</a>
+					<li className='nav-item hamburger'>
+						<a href=''>Бизнес план </a>
 					</li>
-					<li className='nav-item'>
-						<a href='#' onClick={closeMenu}>
-							Demo
-						</a>
+					<li className='nav-item hamburger'>
+						<a href=''>Свободный склад</a>
+					</li>
+					<li className='nav-item hamburger'>
+						<a href=''>Экскурсии</a>
+					</li>
+					<li className='nav-item hamburger'>
+						<a href=''>Рекрутинг</a>
 					</li>
 				</ul>
 			</nav>

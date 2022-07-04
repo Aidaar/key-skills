@@ -1,7 +1,7 @@
 import React from 'react'
-import About from '../../components/About/About'
-import Hero from '../../components/Hero/Hero'
-import Testimonials from '../../components/Testimonials/Testimonials'
+import About from './About/About'
+import Hero from './Hero/Hero'
+import Testimonials from './Testimonials/Testimonials'
 
 const Home = () => {
 	return (
@@ -9,6 +9,7 @@ const Home = () => {
 			<Hero />
 			<About />
 			<Testimonials />
+			{/* <Partners /> */}
 		</>
 	)
 }
