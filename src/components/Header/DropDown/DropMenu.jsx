@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react'
+import { Link } from 'react-router-dom'
 import './DropMenu.scss'
 
 const DropMenu = () => {
@@ -12,16 +13,16 @@ const DropMenu = () => {
 
 			<ul className={click ? 'dropdown active' : 'dropdown'}>
 				<li className='drop__menu-item'>
-					<a href=''>Бизнес план </a>
+					<Link to='business'>Бизнес план </Link>
 				</li>
 				<li className='drop__menu-item'>
-					<a href=''>Свободный склад</a>
+					<Link to='warehouse'>Свободный склад</Link>
 				</li>
 				<li className='drop__menu-item'>
-					<a href=''>Экскурсии</a>
+					<Link to='excursion'>Экскурсии</Link>
 				</li>
 				<li className='drop__menu-item'>
-					<a href=''>Рекрутинг</a>
+					<Link to='recruiting'>Рекрутинг</Link>
 				</li>
 			</ul>
 		</div>

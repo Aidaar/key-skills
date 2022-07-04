@@ -1,7 +1,7 @@
-import React, { useState, useRef } from 'react'
-
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { FaBars, FaTimes } from 'react-icons/fa'
+
 import logo from '../../assets/header/keySkillsLogo.png'
 
 import './Navbar.scss'
@@ -34,16 +34,16 @@ const Navbar = () => {
 						<DropMenu />
 					</li>
 					<li className='nav-item hamburger'>
-						<a href=''>Бизнес план </a>
+						<Link to='business'>Бизнес план </Link>
 					</li>
 					<li className='nav-item hamburger'>
-						<a href=''>Свободный склад</a>
+						<Link to='warehouse'>Свободный склад</Link>
 					</li>
 					<li className='nav-item hamburger'>
-						<a href=''>Экскурсии</a>
+						<Link to='excursion'>Экскурсии</Link>
 					</li>
 					<li className='nav-item hamburger'>
-						<a href=''>Рекрутинг</a>
+						<Link to='recruiting'>Рекрутинг</Link>
 					</li>
 				</ul>
 			</nav>
