@@ -6,7 +6,14 @@ const Hero = () => {
 		<div className='hero'>
 			<div className='content'>
 				<p>Позвоните нам</p>
-				<p>0553 513 515</p>
+					<a
+						href='tel:+996995959595'
+						className='hero__tel'
+						target='_blank'
+						rel='noopener noreferrer'
+					>
+						0553 513 515
+					</a>
 				<p>Key Skills</p>
 				<p>Ключ к вашему успеху в наших руках!</p>
 			</div>
