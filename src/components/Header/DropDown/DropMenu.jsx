@@ -5,6 +5,7 @@ import './DropMenu.scss'
 const DropMenu = () => {
 	const [click, setClick] = useState(false)
 	const closeDrop = () => setClick(!click)
+	
 	return (
 		<div className='dropdown__menu'>
 			<a className='drop__btn' onClick={closeDrop}>

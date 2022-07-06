@@ -4,7 +4,7 @@ import React from 'react'
 // import user3 from '../../assets/balastan.png'
 // import user4 from '../../assets/FishToktogul.png'
 
-import './/Testimonials.scss'
+import './Testimonials.scss'
 
 const Testimonials = () => {
 	return (
