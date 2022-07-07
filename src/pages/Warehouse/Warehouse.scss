@@ -1,0 +1,21 @@
+.warehouse {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	padding-bottom: 2rem;
+	margin-top: 90px;
+
+	.warehouse .container {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		max-width: 700px;
+		margin: auto;
+		padding: 1rem;
+	}
+
+}
