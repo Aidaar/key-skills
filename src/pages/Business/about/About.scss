@@ -7,7 +7,7 @@
 
 .about__business {
 	.container {
-		width: 1240px;
+		max-width: 1240px;
 		margin: auto;
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);

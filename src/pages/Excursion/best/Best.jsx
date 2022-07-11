@@ -1,20 +1,26 @@
-import React, { Link } from 'react'
-
-import Apt1 from '../../../assets/excursion/img.jpeg'
-import Apt2 from '../../../assets/excursion/img1.jpg'
-import Apt3 from '../../../assets/excursion/img2.jpeg'
+import React from 'react'
+import art1 from '../../../assets/excursion/img.jpeg'
+import art2 from '../../../assets/excursion/img1.jpg'
+import art3 from '../../../assets/excursion/img2.jpeg'
 
 import './Best.scss'
 
 const Best = () => {
 	return (
-		<div className='best'>
-			<h1>Рассказываем о корпоративной культуре</h1>
+		<div className='best' id='best'>
 			<div className='container'>
-				<div className='best__img-block'>
-					<img src={Apt1} alt='' />
-					<img src={Apt2} alt='' />
-					<img src={Apt3} alt='' />
+				<h2>Рассказываем о корпоративной культуре</h2>
+				<span className='line'></span>
+				<div className='content'>
+					<div className='card'>
+						<img src={art1} alt='apt1' />
+					</div>
+					<div className='card'>
+						<img src={art2} alt='art2' />
+					</div>
+					<div className='card'>
+						<img src={art3} alt='art3' />
+					</div>
 				</div>
 			</div>
 		</div>

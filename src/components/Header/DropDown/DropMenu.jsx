@@ -5,6 +5,7 @@ import './DropMenu.scss'
 const DropMenu = () => {
 	const [click, setClick] = useState(false)
 	const closeDrop = () => setClick(!click)
+	const [drpodown, setDropdown] = useState(false)
 	
 	return (
 		<div className='dropdown__menu'>

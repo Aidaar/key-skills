@@ -8,7 +8,6 @@ const Excursion = () => {
 	return (
 		<div>
 			<Hero />
-			{/* <Featured /> */}
 			<Best />
 			<Featured />
 		</div>
